@@ -103,23 +103,27 @@ header {
 .flex {
   display: flex;
 }
+
 .main {
   height: 100vh;
   background-color: #272a31;
   padding: 20px;
   background-image: url("./images/main-pattern.png");
 }
+
 .main-heading {
   align-items: center;
   flex-direction: column;
   padding: 12px 20px 24px;
   justify-content: center;
 }
+
 .main-head-text {
   font-family: "lato", sans-serif;
   font-size: 25px;
   color: #fff;
 }
+
 .container1 {
   gap: 10px;
   align-items: center;
