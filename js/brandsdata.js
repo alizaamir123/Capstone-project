@@ -9,7 +9,6 @@ const data=[
     name:'Kylie Jenner',
     about:'Kylie Cosmetics, LLC is an American cosmetics company founded by Kylie Jenner. The company began selling Kylie Lip Kits, a liquid lipstick and lip liner set, on November 30, 2015. Formerly known as Kylie Lip Kits, the company was renamed Kylie Cosmetics',
 },
-
 {
     image:'images/maybelline.jpg',
     name:'Thomas Lyle Williams',
