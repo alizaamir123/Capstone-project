@@ -26,13 +26,17 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone-project] <a name="about-project"></a>
+# 📖 Capstone-project <a name="about-project"></a>
+
+Its a capstone project and this website is about makeup that's all.
 
 ## 🛠 Built With <a name="visual studio">HTML5</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
+- **html**
+- **Css**
+- **Javascript**
 
 <!-- Features -->
 
@@ -56,22 +60,40 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+ 
 
 ### Prerequisites
 In order to run this project you need:
 
-Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+- Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
 
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-
+```
 `git clone https://github.com/Alizaamir123/Capstone-project.git`
-
+```
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
 Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+Setup:
+
+https://github.com/alizaamir123/Capstone-project
+
+Install:
+ 
+```
+npm install
+```
+Usage:
+
+
+```
+cd capstone-project
+```
+
 
 <!-- AUTHORS -->
 
@@ -87,9 +109,11 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - **More detailed**
 - **Master HTML**
 - **deskstop version**
--
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- CONTRIBUTING -->
 
