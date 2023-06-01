@@ -1,6 +1,6 @@
 import data from './brandsdata.js';
+
 const more = document.querySelector('.see-more');
-const brandNames = document.querySelectorAll('.brands-name');
 
 document.querySelector('.brands-founder').innerHTML = data
   .map((data) => `
@@ -16,10 +16,9 @@ document.querySelector('.brands-founder').innerHTML = data
     </div>
   `)
   .join('');
-  
 
 more.addEventListener('click', () => {
-    const brandNames = document.querySelectorAll('.hide');
+  const brandNames = document.querySelectorAll('.hide');
   brandNames.forEach((brandName) => {
     brandName.classList.toggle('hidden');
   });
