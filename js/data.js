@@ -1,7 +1,7 @@
 import data from './brandsdata.js';
 
-document.querySelector('.brands-founder').innerHTML=data.map(
-    (data)=>` <div class="brands-name flex">
+document.querySelector('.brands-founder').innerHTML = data.map(
+  (data) => ` <div class="brands-name flex">
     <div class="brands-img ">
         <img src='${data.image}' alt="" class="owner-img">
     </div>
@@ -11,4 +11,4 @@ document.querySelector('.brands-founder').innerHTML=data.map(
     </div>
 </div>`,
 )
-.join('');
+  .join('');
