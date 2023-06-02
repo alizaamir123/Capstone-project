@@ -16,28 +16,24 @@ const data = [
     name: 'Thomas Lyle Williams',
     desc: 'Lorem ipsum, dolor sit amet consectetur',
     about: 'Maybelline New York is the number one global cosmetics brand and ',
-    class: 'hidden hide',
   },
   {
     image: 'images/1.jpg',
     name: 'Patrick Ta Beauty',
     desc: 'Lorem ipsum, dolor sit amet consectetur',
     about: 'Patrick Ta Beauty is a makeup brand founded by makeup artist Patrick Ta.',
-    class: 'hidden hide',
   },
   {
     image: 'images/2.jpg',
     name: 'Rihanna',
     desc: 'Lorem ipsum, dolor sit amet consectetur',
     about: 'Fenty Beauty is a makeup brand created by Rihanna, the renowned singer, ',
-    class: 'hidden hide',
   },
   {
     image: 'images/3.jpg',
     name: 'Michelle Phan',
     desc: 'Lorem ipsum, dolor sit amet consectetur',
     about: 'EM Cosmetics is a makeup brand founded by Michelle Phan, a popular ',
-    class: 'hidden hide',
   },
 ];
 export default data;
