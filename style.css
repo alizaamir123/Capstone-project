@@ -608,7 +608,7 @@ header {
     background-image: url(./images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 65vh;
+    overflow-y: hidden;
     padding: 60px 30px 75px;
   }
 
