@@ -493,6 +493,7 @@ header {
     justify-content: center;
     gap: 10px;
   }
+
   .first-navbar {
     display: block;
     display: flex;
@@ -505,7 +506,6 @@ header {
     list-style: none;
     font-size: 1rem;
   }
-  
 }
 
 @media (min-width: 768px) {
