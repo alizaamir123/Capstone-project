@@ -118,7 +118,7 @@ cd capstone-project
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
-- [Live Demo Link](https://chic-cupcake-67f8d9.netlify.app/)
+- [Live Demo Link](https://alizaamir123.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
