@@ -1,0 +1,761 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.first-navbar1 {
+  color: #fff;
+  font-family: 'lato', sans-serif;
+}
+
+.top-nav {
+  display: none;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgb(179, 168, 300);
+}
+
+.banner-container {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  padding: 60px 30px;
+}
+
+.paragraph {
+  color: #110202;
+  font-size: 17px;
+  margin: 20px 0;
+  font-family: "lato", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+.nav,
+.logo {
+  display: none;
+}
+
+.second-navbar {
+  display: none;
+}
+
+.second-navbar-popup {
+  position: fixed;
+  background-color: rgb(218, 206, 206);
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  top: 0;
+}
+
+.second-navbar-popup-links a {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.second-navbar-popup-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 5rem 0;
+}
+
+.description {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 29px;
+  display: flex;
+  letter-spacing: -0.02em;
+  color: #f78c89;
+  padding-left: 5%;
+}
+
+.product-desc {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding-left: 5%;
+}
+
+.makeup-brands {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #1d1a1a;
+  padding-bottom: 10px;
+}
+
+.second-navbars-links a {
+  font-family: "lato", sans-serif;
+  color: #868686;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.histroy-card {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+
+.heading-1 {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #f5744a;
+  font-family: "lato", sans-serif;
+}
+
+.heading-2 {
+  margin: 10px 0;
+  font-weight: 900;
+  color: rgb(204, 52, 52);
+  font-family: "lato", sans-serif;
+}
+
+.heading-3 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: #595959;
+  font-family: "lato", sans-serif;
+}
+
+.heading-4 {
+  margin: 10px 0;
+  color: #615f5f;
+  font-family: "lato", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.main {
+  background-color: #272a31;
+  padding: 20px;
+  background-image: url("./images/main-pattern.png");
+}
+
+.main-heading {
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 20px 24px;
+  justify-content: center;
+}
+
+.main-head-text {
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+.container1 {
+  gap: 10px;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(59, 60, 65, 0.5);
+}
+
+.desc {
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: "lato", sans-serif;
+}
+
+.main-container {
+  flex-direction: column;
+  gap: 9px;
+  display: flex;
+}
+
+.side-logo {
+  width: 75px;
+}
+
+.side-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000;
+  padding-left: 5%;
+}
+
+.after-main {
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 20px 24px;
+  justify-content: center;
+}
+
+.after-main-heading {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.owner-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.nav-logo {
+  display: none;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.see-more {
+  display: block;
+  border: 1px solid rgb(161, 159, 159);
+  padding: 10px;
+  text-align: center;
+}
+
+.seemore-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  justify-content: center;
+  color: #000;
+}
+
+.brands-founder {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.cross {
+  z-index: 100;
+  position: fixed;
+  font-size: 1.5rem;
+}
+
+.button {
+  padding: 18px 30px;
+  font-size: 17px;
+  color: #fff;
+  font-family: "lato", sans-serif;
+  background-color: #e74c33;
+}
+
+.after-about-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px 25px;
+}
+
+.red-bar {
+  border-bottom: 2.5px solid #a04038;
+  width: 54px;
+  gap: 10px;
+}
+
+.after-about {
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid #c0b8b8;
+  border-top: 1px solid #fff;
+  padding: 0 25px 62px;
+}
+
+.about-paragraph {
+  text-align: center;
+  padding-bottom: 37px;
+  columns: #0f0f0f;
+  font-size: 1rem;
+  text-indent: 1.5rem;
+}
+
+.logo-about {
+  border: 1px solid rgb(233, 225, 225);
+  width: 35%;
+  padding: 20px 10px;
+}
+
+.about-para {
+  text-align: center;
+  padding-bottom: 37px;
+  color: #0f0f0f;
+  font-size: 1rem;
+  text-indent: 1.5rem;
+  font-family: "lato", sans-serif;
+}
+
+.center1 {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  color: #838383;
+  padding: 25px 0;
+}
+
+.hamburger-icon1 {
+  color: grey;
+  font-size: 25px;
+}
+
+.ham-cross {
+  padding: 10px 5%;
+}
+
+.center {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  color: #838383;
+  padding-bottom: 5%;
+}
+
+.after-about-para {
+  padding: 0 25px;
+}
+
+.contact {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+.gmail {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5f5f5f;
+}
+
+.makeup-histroy {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 24px;
+}
+
+.mrzi {
+  display: none;
+}
+
+.heading2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #2c2c2c;
+  padding-bottom: 18px;
+}
+
+.card-img {
+  filter:
+    grayscale(0%) brightness(60%) sepia(100%) hue-rotate(-35deg)
+    saturate(650%) contrast();
+  max-width: 100%;
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.partners {
+  display: none;
+}
+
+.partner-heading {
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  color: #fff;
+  font-family: "lato", sans-serif;
+  padding-bottom: 5%;
+}
+
+.partner-logo {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.footer1 {
+  width: 100%;
+  margin-top: 50px;
+  gap: 50px;
+  align-items: center;
+}
+
+.footer-img {
+  width: 61%;
+  margin-left: 74px;
+}
+
+.footer-para {
+  width: 151%;
+  padding-bottom: 10px;
+}
+
+.index-footer1 {
+  display: none;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-para-content {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  color: #3b3e45;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    font-size: 15px;
+  }
+
+  .border {
+    border: 4px solid #e7422c;
+    padding: 5px 17px;
+  }
+
+  .top-nav {
+    display: block;
+    display: flex;
+    font-family: 'lato', sans-serif;
+    gap: 22px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 8px 12%;
+    background-color: #3e3e3e;
+    color: #fff;
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 6% 40px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .logo-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+
+  .partners {
+    display: block;
+    flex-direction: column;
+    background-color: #414246;
+    padding: 30px 10px 30px;
+  }
+
+  .second-navbar {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-logo {
+    display: block;
+  }
+
+  .header-logo {
+    height: 50px;
+  }
+
+  .hamburger-icon1 {
+    display: none;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .heading-1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #f5744a;
+    font-family: "lato", sans-serif;
+  }
+
+  .heading-2 {
+    margin: 0;
+    margin-bottom: 5%;
+    font-weight: 900;
+    color: rgb(204, 52, 52);
+    font-family: "lato", sans-serif;
+    font-size: 4rem;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  .brands-founder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 10%;
+  }
+
+  .paragraph {
+    color: #110202;
+    font-size: 17px;
+    font-family: "lato", sans-serif;
+    background-color: #fff;
+    width: 50%;
+  }
+
+  .center-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #595959;
+    font-family: "lato", sans-serif;
+  }
+
+  .heading-4 {
+    margin: 10px 0;
+    color: #615f5f;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+  }
+
+  .banner-container {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    padding: 60px 30px 75px;
+  }
+
+  .contact {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    color: #7a7a7a;
+    justify-content: center;
+  }
+
+  .gmail {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #5f5f5f;
+  }
+
+  .contact-container {
+    align-items: center;
+  }
+
+  .desc {
+    color: #fff;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "lato", sans-serif;
+    padding: 20px 0;
+  }
+
+  .histroy-card {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 15%;
+  }
+
+  .footer1 {
+    width: 100%;
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    background-color: #3b3e45;
+    padding: 30px 10px 30px;
+  }
+
+  .footer-img {
+    width: 61%;
+    margin-left: 139px;
+
+    /* color: white; */
+    filter: invert(1);
+  }
+
+  .footer-para {
+    width: 151%;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer-para-content {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .mrzi {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #fdfdfd;
+    padding: 30px 0;
+  }
+
+  .index-footer-img {
+    height: 6rem;
+  }
+
+  .index-footer-para-content {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: #020202;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .side-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .side-logo img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .histroy-card {
+    padding: 0 25%;
+  }
+}
