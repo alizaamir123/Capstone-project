@@ -40,10 +40,6 @@ header {
   height: auto;
 }
 
-.first-navbar {
-  display: none;
-}
-
 .nav,
 .logo {
   display: none;
