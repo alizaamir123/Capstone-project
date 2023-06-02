@@ -10,6 +10,7 @@
 
 .first-navbar1 {
   color: #fff;
+  font-family: 'lato', sans-serif;
 }
 
 .first-navbar {
@@ -493,6 +494,7 @@ header {
   .first-navbar {
     display: block;
     display: flex;
+    font-family: 'lato', sans-serif;
     gap: 50px;
     justify-content: flex-end;
     margin: 0;
@@ -514,6 +516,7 @@ header {
   .first-navbar {
     display: block;
     display: flex;
+    font-family: 'lato', sans-serif;
     gap: 50px;
     justify-content: flex-end;
     margin: 0;
